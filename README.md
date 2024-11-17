@@ -57,9 +57,9 @@ Results from evaluation of various decision thresholds
   - Params:
       - {'classifer__C': 1, 'classifer__gamma': 'auto', 'classifer__kernel': 'rbf'}
       - Threshold for classification : 0.3
-      - Test dataset Precision score : 0.76
-      - Hidden dataset Precision score : 0.70
-  - Reasoning: The precision score improved to 0.76 when decision thresholds were increased to 0.3, and at this point, still generates enough number of leads to go after
+      - Test dataset Precision score : 0.77
+      - Hidden dataset Precision score : 0.72
+  - Reasoning: The precision score improved to 0.77 when decision thresholds were increased to 0.3, and at this point, still generates enough number of leads to go after
     ![cm_test_run1](images/cm_test_run1.png)
     ![cm_hidden_run1](images/cm_hidden_run1.png)
     
