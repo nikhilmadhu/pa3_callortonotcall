@@ -5,8 +5,8 @@
 'Bank' is releasing a new term deposit product and has limited amount of resources to market it to customers. This analysis aims to create a model that is able to identify customers who have a high likelyhood of signing on so the marketing resources could be deployed most effectively.
 
 ## Actionable Insights from the Analysis
-1. Plan to conduct the campaign during March, October and September
-2. Focus on existing customers
+1. Focus on existing customers
+2. Plan to conduct the campaign during March, October, September and December
 3. Focus on customers who have not been contacted in the last 3 or 6 months
 
 ## Data
@@ -57,9 +57,9 @@ Results from evaluation of various decision thresholds
   - Params:
       - {'classifer__C': 1, 'classifer__gamma': 'auto', 'classifer__kernel': 'rbf'}
       - Threshold for classification : 0.3
-      - Test dataset Precision score : 0.71
-      - Hidden dataset Precision score : 0.77
-  - Reasoning: The precision score improved to 0.77 when decision thresholds were increased to 0.3, and at this point, still generates enough number of leads to go after
+      - Test dataset Precision score : 0.76
+      - Hidden dataset Precision score : 0.70
+  - Reasoning: The precision score improved to 0.76 when decision thresholds were increased to 0.3, and at this point, still generates enough number of leads to go after
     ![cm_test_run1](images/cm_test_run1.png)
     ![cm_hidden_run1](images/cm_hidden_run1.png)
     
